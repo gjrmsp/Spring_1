@@ -22,16 +22,16 @@ public class MemberController {
 
 	//memberJoin2	//	/member/merberJoin	POST
 	@RequestMapping(value = "/member/memberJoin", method = RequestMethod.POST)
-	public void memberJoin2(MemberDTO memberDTO) throws Exception {
+	public void memberJoin(MemberDTO memberDTO) throws Exception {
 
 		int result = memberService.memberJoin(memberDTO);
-
+		System.out.println("test");
 		System.out.println(result);
 	}
 
 	//memberJoin print	//	/member/memberLogin
 	@RequestMapping(value = "/member/memberLogin")
-	public String memberLogin(String name, int age) {
+	public String memberLogin() {
 		//		String name = request.getParameter("name");
 		//		int age = Integer.parseInt(request.getParameter("age"));
 		//		System.out.println(name);
