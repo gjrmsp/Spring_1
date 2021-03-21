@@ -60,9 +60,9 @@
 					<!-- 반복 시작 -->
 					<c:forEach items="${list}" var="dto">
 						<tr>
-							<td><a href="./bankbookSelect?bookNumber=${dto.bookNumber}">${dto.bookName}</a></td>
-							<td>${dto.bookRate}</td>
-							<td>${dto.bookSale}</td>
+							<td><a href="./bankbookSelect?bookNumber=${dto.booknumber}">${dto.bookname}</a></td>
+							<td>${dto.bookrate}</td>
+							<td>${dto.booksale}</td>
 						</tr>
 					</c:forEach>
 					<!-- 반복 끝 -->
