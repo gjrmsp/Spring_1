@@ -36,7 +36,9 @@ public class BankBookController {
 	
 	//상품 등록
 	@RequestMapping(value = "/bankbook/bankbookAdd")
-	public void bankbookAdd()throws Exception{}
+	public void bankbookAdd() throws Exception{
+		
+	}
 	
 	@RequestMapping(value = "/bankbook/bankbookAdd", method = RequestMethod.POST)
 	public ModelAndView bankbookAdd(BankBookDTO bankBookDTO, ModelAndView modelAndView)throws Exception{

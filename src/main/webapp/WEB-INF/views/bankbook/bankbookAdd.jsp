@@ -13,19 +13,19 @@
 			<label class="control-label col-sm-2" for="bookname">BookName:</label>
 			<div class="col-sm-10">
 				<input type="text" class="form-control" id="bookname"
-					placeholder="bookname" name="bookName">
+					placeholder="bookname" name="bookname">
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="control-label col-sm-2" for="bookRate">BookRate:</label>
+			<label class="control-label col-sm-2" for="bookrate">BookRate:</label>
 			<div class="col-sm-10">
-				<input type="text" class="form-control" id="bookRate"
-					placeholder="bookRate" name="bookRate">
+				<input type="text" class="form-control" id="bookrate"
+					placeholder="bookrate" name="bookrate">
 			</div>
 		</div>
 		<div class="form-group">
 			<label for="sel1">BookSale:</label> <select class="form-control"
-				id="bookSale" name="bookSale">
+				id="booksale" name="booksale">
 				<option>Y</option>
 				<option>N</option>
 			</select>
